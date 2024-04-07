@@ -14,6 +14,7 @@ import Node from "./pages/devPages/Node";
 import Javascript from "./pages/devPages/Javascript";
 import SE from "./pages/corePages/SE";
 import OS from "./pages/corePages/OS";
+import Edos from "./pages/Edos";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/topics" element={<TopicsPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/edos" element={<Edos />} />
         <Route path="/topics/development" element={<DevelopmentPage />} />
         <Route path="/topics/development/react" element={<ReactPage />} />
         <Route path="/topics/development/js" element={<Javascript />} />

@@ -22,9 +22,12 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="right-nav cursor-pointer basis-1/4 flex items-center justify-end">
+        <Link
+          to="/edos"
+          className="right-nav cursor-pointer basis-1/4 flex items-center justify-end"
+        >
           <img src={Edos} alt="edos" />
-        </div>
+        </Link>
       </div>
     </>
   );
