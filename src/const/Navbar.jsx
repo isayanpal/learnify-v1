@@ -15,10 +15,13 @@ export default function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li className="cursor-pointer hover:text-[#0C359E]">
-              <Link to="/topics">Topics</Link>
+              <Link to="/topics">Topics of Interest</Link>
             </li>
             <li className="cursor-pointer hover:text-[#0C359E]">
-              <Link to="/contact">Contact</Link>
+              <Link to="/tutorials">Video Tutorials</Link>
+            </li>
+            <li className="cursor-pointer hover:text-[#0C359E]">
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
